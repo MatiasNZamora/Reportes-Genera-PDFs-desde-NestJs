@@ -6,3 +6,4 @@ export * from './order-by-id.reports';
 
 export * from './basic-chart-svg.report';
 export * from './statistics.report';
+export * from './community.reports';

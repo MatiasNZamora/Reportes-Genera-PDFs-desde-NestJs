@@ -35,6 +35,14 @@ const customTableLayouts: Record<string, CustomTableLayout> = {
             if(i=== 0 ) return '#7b90be';
             return i % 2 === 0  ? '#f3f3f3' : null;
         },
+    },
+    borderBlue: {
+        hLineColor: function (){
+            return '#5f96d4';
+        },
+        vLineColor: function (){
+            return '#5f96d4';
+        },
     }
 };
 
