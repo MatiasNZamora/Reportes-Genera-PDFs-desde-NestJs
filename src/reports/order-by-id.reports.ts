@@ -3,26 +3,6 @@ import { DateFormater, CurrencyFormatter } from 'src/helpers';
 import { footerSection } from "./sections/footer.section";
 
 
-const logo: Content = {
-    image: 'src/assets/tucan-banner.png',
-    width: 100,
-    height: 30,
-    margin:[10,20],
-};
-
-const style:StyleDictionary = {
-    header: {
-        fontSize: 20,
-        bold: true,
-        margin:[0,30,0,0],
-    },
-    subHeader: {
-        fontSize: 16,
-        bold: true,
-        margin:[0,20,0,0],
-    }
-};
-
 
 export interface CompleteOrder {
     order_id:      number;
@@ -58,6 +38,25 @@ export interface Products {
     price:        string;
 }
 
+const logo: Content = {
+    image: 'src/assets/tucan-banner.png',
+    width: 100,
+    height: 30,
+    margin:[10,20],
+};
+
+const style:StyleDictionary = {
+    header: {
+        fontSize: 20,
+        bold: true,
+        margin:[0,30,0,0],
+    },
+    subHeader: {
+        fontSize: 16,
+        bold: true,
+        margin:[0,20,0,0],
+    }
+};
 
 interface ReportsValues {
     title?: string;

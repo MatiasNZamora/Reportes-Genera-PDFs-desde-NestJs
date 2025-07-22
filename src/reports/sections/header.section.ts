@@ -14,7 +14,8 @@ const logo: Content = {
 const currentDate: Content = {
     text: DateFormater.getDDMMMYYYY( new Date() ),
     alignment: 'right',
-    margin: [20, 20],
+    margin: [20, 30],
+    fontSize: 10,
     // width: 150,
 };
 
@@ -34,10 +35,10 @@ export const headerSection = (options: HeaderOptions): Content => {
     const headerSubTitle: Content = subTitle ? {
         text: subTitle,
         alignment: 'center',
-        margin: [200, 0, 0, 0],
+        margin: [0, 2, 0, 0],
         style: {
             fontSize: 16,
-            bold: true,
+            // bold: true,
         },
     } : '';
     const headerTitle: Content = title 
@@ -46,7 +47,7 @@ export const headerSection = (options: HeaderOptions): Content => {
                 {
                     text: title,
                     alignment: 'center',
-                    margin: [200, 15, 0, 0],
+                    margin: [0, 15, 0, 0],
                     style: {
                         bold: true,
                         fontSize: 22,
