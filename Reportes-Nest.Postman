@@ -1,0 +1,212 @@
+{
+	"info": {
+		"_postman_id": "3c7620e1-16db-487e-86f3-6c534ed589e1",
+		"name": "Reportes-Nest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29025423"
+	},
+	"item": [
+		{
+			"name": "index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/basic-reports/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"basic-reports",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ReportByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/basic-reports/employment-letter/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"basic-reports",
+						"employment-letter",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "employment-letter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/basic-reports/employment-letter",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"basic-reports",
+						"employment-letter"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "countris",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/basic-reports/countries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"basic-reports",
+						"countries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Order by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/store-reports/orders/10250",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"store-reports",
+						"orders",
+						"10250"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Svg-chart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/store-reports/charts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"store-reports",
+						"charts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top-Countries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/store-reports/statistics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"store-reports",
+						"statistics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "extra-reports / html-report",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/extra-reports/html-report",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"extra-reports",
+						"html-report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reperote-personalizado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/extra-reports/community-report",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"extra-reports",
+						"community-report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "custom-size",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/extra-reports/custom-size",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"extra-reports",
+						"custom-size"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
