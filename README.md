@@ -5,40 +5,48 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-# Reportes en Pdf con NestJS / Node
+# 📄 Generación de Reportes PDF con NestJS / Node.js
 
-Domina la creación de reportes en PDF utilizando NestJS, el potente framework de Node.js. En este curso, aprenderás a integrar y utilizar herramientas como Pdfmake para generar reportes profesionales y personalizados.
+Este repositorio contiene un proyecto de ejemplo profesional que demuestra cómo generar **reportes PDF personalizados** utilizando **NestJS** y herramientas modernas como **PdfMake**, **Chart.js**, **QR Codes**, y más.
+Diseñado para automatizar la creación de documentos como constancias, reportes tabulados, recibos, y estadísticas visuales, con conexión real a bases de datos PostgreSQL.
 
-## Características principales alcanzadas 📋
-- PdfMake
-- NestJS
-- Configuración de fuentes (Como Roboto)
-- Diseños de reportes personalizados
-- Diseños y temas para tablas
-- Re-uitlilzación de estilos y secciones
-- Gráficos con Chart.js
-- Tomar HTML y generar reportes
-- Códigos QR
-- Conexión a base de datos con Prisma
-- PostgreSQL para extracción de data
-- Docker
-- PgAdmin
-- Uso de SVGs e imágenes
-- Diseño de columnas y filas
+## 🚀 Funcionalidades destacadas
 
-### Módulos incluidos:
-Autenticación (con manejo de tokens)
-Gestión de pedidos
-Productos y categorías
-Relacionamientos en PostgreSQL y compatibilidad con MongoDB
+- 🧾 Generación de constancias laborales
+- 🌍 Reportes tabulares (ej: listado de países)
+- 🛒 Recibos de compra con códigos QR (maestro-detalle)
+- 🔗 Consultas con múltiples relaciones (INNER JOINs)
+- 📊 Reportes con gráficas dinámicas
+- 🧱 Generación de PDF desde HTML enriquecido
+- 🎨 Clonación visual de reportes existentes en PdfMake
+- 📐 Reportes con tamaño de hoja personalizado
 
-### Tecnologías utilizadas 🛠️
- - NestJS: Framework para construir aplicaciones de servidor escalables
- - Passport: Middleware de autenticación para Node.js
- - JWT (JSON Web Tokens): Gestión de autenticación basada en tokens
- - TypeORM: ORM para manejar relaciones en PostgreSQL
- - MongoDB: Base de datos alternativa para flexibilidad
- - Swagger: Documentación de la API
+## 🛠️ Tecnologías utilizadas
+
+| Herramienta | Uso |
+|-------------|-----|
+| **NestJS** | Framework backend modular y escalable |
+| **PdfMake** | Generación de PDFs dinámicos y personalizables |
+| **Chart.js** | Creación de gráficas para reportes |
+| **QRCode** | Códigos QR en documentos |
+| **Prisma ORM** | Acceso y modelado de datos con PostgreSQL |
+| **Docker** | Contenedores para el entorno de desarrollo |
+| **PgAdmin** | Cliente visual para PostgreSQL |
+| **SVG / Imágenes** | Inclusión de recursos visuales |
+| **Roboto Font** | Tipografía profesional incorporada |
+
+## 📄 Reportes disponibles
+
+| Reporte                     | Descripción                                 |
+| --------------------------- | ------------------------------------------- |
+| **Constancia Laboral**      | Datos reales desde PostgreSQL               |
+| **Listado de Países**       | Tabla con formato personalizado             |
+| **Recibo de Compra con QR** | Maestro-detalle + código QR                 |
+| **Relaciones múltiples**    | INNER JOINs e información compuesta         |
+| **Gráficas**                | Reportes con estadísticas y visualizaciones |
+| **HTML a PDF**              | Conversión de HTML enriquecido a documento  |
+| **Diseños personalizados**  | Réplica de reportes existentes              |
+| **Tamaños específicos**     | Personalización del tamaño de hoja          |
 
 
 ## Instalación y configuración 🔧
@@ -46,32 +54,30 @@ Relacionamientos en PostgreSQL y compatibilidad con MongoDB
 Clonar el repositorio
 
 ```bash
-      git clone https://github.com/MatiasNZamora/Talampaya-backend.git
-      cd Talampaya-backend
+      git clone https://github.com/MatiasNZamora/Reportes-PDFs-NestJs
+      cd Reportes-PDFs-NestJs
 ```
 
-### Instalar dependencias
+#### Instalar dependencias :pencil2:
 
 ```bash
     npm install
     Configurar variables de entorno del archivo .env.template
 ```
 
-### Levantar contenedor de Docker:
+#### Levantar contenedor de Docker :pencil2:
 
 ```bash
     docker-compose up -d
 ```
 
-### Ejecutar migraciones (Para PostgreSQL)
+#### Ejecutar migraciones de Prisma (Para PostgreSQL):pencil2:
 
 ```bash
-      En el caso de PostgresQl
-      npm run typeorm migration:run
-      Levantar el servidor
+      npm npx prisma generate
 ```
 
-### Ejecutar el comando para levantar el projecto en modo Desarrollo:
+#### Ejecutar el comando para levantar el projecto en modo Desarrollo :pencil2:
 
 ```bash
     npm run start:dev
@@ -79,21 +85,14 @@ Clonar el repositorio
 
 ### Endpoints disponibles 📚
 
-``` La coleccion de enpoints estan disponibles en el repositorio.    ```
+``` La coleccion de enpoints estan disponibles en el repositorio. ```
 
 
-Constancia laboral con conexión  (con conexión a base de datos)
+## 📬 Contacto
 
-Listado de países en formato de tabla (con conexión a base de datos)
+**Matías N. Zamora**  
+Desarrollador Fullstack & Asesor Técnico
 
-Recibo de compra con código QR - Maestro - detalle
-
-Múltiples relaciones e inner joins (con conexión a base de datos)
-
-Reporte con estadísticas y gráficas (con conexión a base de datos parcialmente)
-
-Reporte para transformar HTML complejo a Pdf
-
-Clonar la idea de un reporte existente a PdfMake
-
-Reporte con tamaño personalizado
+- 🌐 GitHub: [github.com/MatiasNZamora](https://github.com/MatiasNZamora)
+- 📧 Porfolio: [https://matiasnzamora.com.ar](https://www.matiasnzamora.com.ar/)
+- 🖥️ LinkedIn: [linkedin.com/in/matiasnzamora](https://linkedin.com/in/matiasnzamora)
