@@ -71,7 +71,7 @@ Clonar el repositorio
     docker-compose up -d
 ```
 
-#### Ejecutar migraciones de Prisma (Para PostgreSQL):pencil2:
+#### Ejecutar migraciones de Prisma (Para PostgreSQL) :pencil2:
 
 ```bash
       npm npx prisma generate
